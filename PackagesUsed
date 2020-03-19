@@ -1,0 +1,9 @@
+
+### react-native-modal-datetime-picker
+https://github.com/mmazzarolo/react-native-modal-datetime-picker/blob/next-major/README.md
+
+npm i react-native-modal-datetime-picker@8.x.x @react-native-community/datetimepicker
+npm install @react-native-community/datetimepicker --save
+
+>>> Invariant Violation: Invariant Violation: requireNativeComponent: "RNDateTimePicker" was not found in the UIManager.
+
