@@ -62,8 +62,8 @@ const SettingScreen = ({ container }) => {
 			<ScrollView>
 
 				<List>
-					<ListItem itemDivider>
-						<Text> Add a category </Text>
+					<ListItem itemDivider style={{ backgroundColor: "lightgray"}}>
+						<Text style={{fontWeight:'bold' }}> Add a category </Text>
 					</ListItem>
 
 					<View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-around' }}>
@@ -97,8 +97,8 @@ const SettingScreen = ({ container }) => {
 						/>
 					</View>
 
-					<ListItem itemDivider>
-						<Text> Money Categories</Text>
+					<ListItem itemDivider style={{ backgroundColor: "lightgray"}}>
+						<Text style={{fontWeight:'bold' }}> Money Categories</Text>
 					</ListItem>
 					{container.state.moneyCategories.map((item, index) => (
 						<ListItem
@@ -130,8 +130,8 @@ const SettingScreen = ({ container }) => {
 						</ListItem>
 					))}
 
-					<ListItem itemDivider>
-						<Text> Time Categories</Text>
+					<ListItem itemDivider style={{ backgroundColor: "lightgray"}}>
+						<Text style={{fontWeight:'bold' }}> Time Categories</Text>
 					</ListItem>
 					{container.state.timeCategories.map((item, index) => (
 						<ListItem
@@ -163,8 +163,8 @@ const SettingScreen = ({ container }) => {
 						</ListItem>
 					))}
 
-					<ListItem itemDivider>
-						<Text> Currency </Text>
+					<ListItem itemDivider style={{ backgroundColor: "lightgray"}}>
+						<Text style={{fontWeight:'bold' }}> Currency </Text>
 					</ListItem>
 					<View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }} >
 						<TextInput
@@ -188,8 +188,8 @@ const SettingScreen = ({ container }) => {
 						/>
 					</View>
 
-					<ListItem itemDivider>
-						<Text> File export </Text>
+					<ListItem itemDivider style={{ backgroundColor: "lightgray"}}>
+						<Text style={{fontWeight:'bold' }}> File export </Text>
 					</ListItem>
 					<View style={{ flexDirection: 'row', justifyContent: 'center' }} >
 						<Button rounded primary
@@ -202,8 +202,8 @@ const SettingScreen = ({ container }) => {
 						</Button>
 					</View>
 
-					<ListItem itemDivider>
-						<Text> Delete a record </Text>
+					<ListItem itemDivider style={{ backgroundColor: "lightgray"}}>
+						<Text style={{fontWeight:'bold' }}> Delete a record </Text>
 					</ListItem>
 					<View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-around' }} >
 						<View style={{ flexDirection: 'column', alignSelf: 'center' }} >
@@ -258,8 +258,8 @@ const SettingScreen = ({ container }) => {
 						</Button>
 					</View>
 
-					<ListItem itemDivider>
-						<Text> Delete all the records </Text>
+					<ListItem itemDivider style={{ backgroundColor: "lightgray"}}>
+						<Text style={{fontWeight:'bold' }}> Delete all the records </Text>
 					</ListItem>
 					<View style={{ flexDirection: 'row', justifyContent: 'center' }} >
 						<Button rounded danger

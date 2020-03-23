@@ -8,8 +8,8 @@ export default class AppContainer extends Container {
 	constructor(props) {
 		super(props);
 		this.state = {
-			moneyCategories: ["Accommodation", "Transport", "Food", "Restaurant", "Service", "Goods", "Clothes"],
-			timeCategories: ["Sleep", "Work", "Cooking", "Hangout", "Movies", "English", "Programming"],
+			moneyCategories: ["Set your categories"],
+			timeCategories: ["Set your categories"],
 			allExpenses: [],
 			money_today_category: [],
 			money_today_amount: [],
